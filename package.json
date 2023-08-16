@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:day1": "tsc --outDir dist && node dist/day1/part1.js",
+    "start:day1": "tsc --outDir dist && node dist/day1/part1.js && node dist/day1/part2.js",
     "build": "tsc"
   },
   "devDependencies": {
