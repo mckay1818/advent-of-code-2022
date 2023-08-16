@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-2022-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:day1": "tsc --outDir dist && node dist/day1/part1.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
